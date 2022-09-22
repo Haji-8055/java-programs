@@ -2,7 +2,7 @@ class ChiefMinister{
 	
 	public static void main(String[] info) 
 	{
-		System.out.println("Total count: "+info.length);
+		System.out.println("Total count: " +info.length);
 		
 		System.out.println("The name of Chief minister: "+info[0]);
 		System.out.println("The state of Chief minister: "+info[1]);

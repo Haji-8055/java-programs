@@ -2,7 +2,7 @@ class SoftwareCompany{
 	
 	public static void main(String[] info) 
 	{
-		System.out.println("Total count: "+info.length);
+		System.out.println("Total count: " +info.length);
 		
 		System.out.println(" The name of company: "+info[0]);
 		System.out.println(" Product based or service based: "+info[1]);

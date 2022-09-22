@@ -2,7 +2,7 @@ class River{
 	
 	public static void main(String[] info) 
 	{
-		System.out.println("Total count: "+info.length);
+		System.out.println("Total count: " +info.length);
 		
 		System.out.println("The name of River: "+info[0]);
 		System.out.println("Total distance: "+info[1]);
