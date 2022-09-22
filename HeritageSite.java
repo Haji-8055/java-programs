@@ -2,6 +2,8 @@ class HeritageSite{
 	
 	public static void main(String[] info) 
 	{
+		System.out.println("Total count: "+info.length);
+		
 		System.out.println(" The name of site: "+info[0]);
 		System.out.println(" Owner: "+info[1]);
 		System.out.println(" builder: "+info[2]);
