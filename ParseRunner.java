@@ -18,6 +18,6 @@ class ParseRunner{
 		int covertedQuantity=Integer.parseInt(productQuantity);		
 		
 		int totalPrice= covertedPrice*covertedQuantity;
-		System.out.println("Total price: "+totalPrice);
+	    System.out.println("Total price: "+totalPrice);
 	}
 }
