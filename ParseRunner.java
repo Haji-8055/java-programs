@@ -2,6 +2,8 @@ class ParseRunner{
 	
 	public static void main(String[] value)
 	{
+		if(value.length==5)
+		{
 		String productName= value[0];
 		String productType= value[1];
 		String productPrice=value[2];
@@ -19,5 +21,9 @@ class ParseRunner{
 		
 		int totalPrice= covertedPrice*covertedQuantity;
 	    System.out.println("Total price: "+totalPrice);
+		}
+		else{
+			System.out.println("Enter minimum 5 arguments");
+			}
 	}
 }
