@@ -7,7 +7,7 @@ class BillionariesData{
 	{
 		if(billionaries.length>10)
 		{
-			System.out.println("Array elements exceeded");
+			System.out.println("Array  elements exceeded");
 		}
 			if(billionarie!=null && billionarie.length()>4)
 			{
