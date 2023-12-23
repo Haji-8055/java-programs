@@ -1,0 +1,35 @@
+<properties>
+		<spring.version>5.3.24</spring.version>
+		<springmvc.version>5.3.24</springmvc.version>
+		<quarkus.version>1.13.7.Final</quarkus.version>
+		<lombok.version>1.18.24</lombok.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>		<!-- spring maven dependency -->
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>		<!-- spring webmvc dependency -->
+			<version>${springmvc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.quarkus</groupId>
+			<artifactId>quarkus-hibernate-validator</artifactId>   <!-- quarkus maven dependency-->
+			<version>${quarkus.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>						<!-- lombok maven dependency-->
+			<version>${lombok.version}</version>
+		</dependency>
+
+
+	</dependencies>

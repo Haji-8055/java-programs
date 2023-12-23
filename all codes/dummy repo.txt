@@ -1,0 +1,20 @@
+package com.xworkz.save.repository;
+
+import com.xworkz.save.dto.SoldierDTO;
+
+public class SoldierRepositoryImpl implements SoldierRepository {
+
+	private SoldierDTO[] array = new SoldierDTO[5];
+	private int index = 0;
+
+	@Override
+	public boolean save(SoldierDTO dto) {
+		array[index] = dto;
+
+		System.out.println("dto is saved : " + dto +" at index : "+index);
+		index++;
+
+		return true;
+	}
+
+}

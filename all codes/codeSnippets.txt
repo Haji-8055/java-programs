@@ -1,0 +1,50 @@
+"1. import statement : use classes from different package
+2. in-line import : use when two classes with same name, from different package 
+3. static import : to use static members without using class name 
+4. wild card imports : use multiple classes from same package
+"	
+
+
+"1. Downloaded Eclipse (Enterprise Edition)
+2. Extract Here!!
+3. Created ShortCut
+4. Created or Cloned Git Repo
+5. Used git repo as Workspace 
+6. Setup of JDK in Eclipse 
+                Go to Windows 
+                Preferences
+                type jre 
+                Select Add--> Standard VM--> Select Directory
+                Changed Compiler Level
+7. Created a Java Project 
+                output folder is classes
+                
+ctrl+space = auto complete
+ctrl+f11 = Run 
+ctrl+shift+f= formatting                
+            
+			
+			git hub ==============
+"	
+"
+Settings--> Developer Settings --> Personal access token--> Generate Token ---> Copy and paste 
+Download Git tool (Git bash)
+install git 
+Go to Any Drive (D): create a folder --> any name 
+Inside the folder --> right click --> git bash 
+git clone https://replace_token @github.com/xworkzodc/rocky_bhai.git
+(copy the repo from remote to local)
+cd repo_name: u see main branch after cd 
+git config --global user.email ""your_email""
+Save .java files inside the repo /folder 
+git add ./
+git status 
+git commit -m ""message test""
+git push origin main (name of the branch)
+"	
+
+
+
+"no argument constructor of abstract AbstractAuditDTO")
+	
+	

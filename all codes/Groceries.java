@@ -57,7 +57,7 @@ class Groceries{
 		             coffePowder,chocolates,soap,fruitjuice,cheese,tandooriMasala,eggs,brush};
 		
 		       int total= items.length;
-			   System.out.println("The number of items are"+total);
+			   System.out.println("The total number of items are"+total);
 			   
 			   int ref0=items[0];
 			   int ref1=items[1];
@@ -107,6 +107,8 @@ class Groceries{
 			   int ref45=items[45];
 			   int ref46=items[46];
 			   int ref47=items[47];
+			   
+
 			   
 			   System.out.println("The price of aashirvadAata is " +ref0+" rupees");
 			   System.out.println("The price of rice is " +ref1+" rupees");

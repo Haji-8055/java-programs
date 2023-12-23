@@ -1,0 +1,65 @@
+question1.	
+
+									Iterable is parent most interface of collection
+
+collection is a presentation of group of objects as single entity	
+
+				collection is further extended by following  hierarchy
+
+	1.List               2.Set         3.SortedSet        4.Map               5.Queue
+	
+	implementation classes
+	
+	a.ArrayList     	a.HashSet			.TreeSet        a.HashMap				.TreeSet
+	b.LinkedList		b.LinkedHashSet						b.LinkedHashMap
+	
+	
+*The List can contain duplicate elements 			* Set includes unique items.
+*The List is an ordered collection 					*Set is an unordered collection which 
+ which maintains the insertion order.  			      does not preserve the insertion order.
+*The List interface can allow n 					*whereas Set interface only allows a single null value.
+number of null values 
+* it has separate listIterator						*does not have any iterator
+*it allows positional access,that is 				*it is non index based
+	indexed based
+	
+question2.
+
+*HashMap maintains no order, but TreeMap maintains ascending order.
+*HashMap can be sorted by Key or value whereas TreeMap can be sorted by Key.
+*HashMap can have a null key with multiple null values,,  TreeMap cannot hold a null key but can have multiple null values.
+
+
+question3.	
+HashSet maintains no order where as TreeSet maintains ascending order.
+HashSet performs faster than TreeSet.
+
+question18.
+*we can split string
+*we can convert a string to stream of chars
+*we can join strings
+
+question10.
+dependecy injection is the process of getting reference to a property using spring with the 
+help of annotation @autowired
+
+question11.
+ by making a .java file as component ad .class file as bean ,when we provide package to a spring it will create beans out of all the component and beans within the same package
+ 
+ question12.
+ yes we can have more than one configuration class in a project,,when we use annotation @Configuration on a class 
+ and pass the reference to spring implementation class.
+ 
+ question15.
+ @Component :- it used for .java files,,,it indicates that spring has to create a bean of it
+ @ComponentScan:-it indicates in which package spring has to manage objects
+ @Bean :-  it used for .class files,we have to declare and intitilaize but spring will only manage it
+ 
+ question16.
+ 
+ 
+ 
+ 
+ 
+
+ 

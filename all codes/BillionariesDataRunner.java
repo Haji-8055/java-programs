@@ -15,10 +15,12 @@ class BillionariesDataRunner{
 	BillionariesData.save("Sergey Brin");
 	
 	BillionariesData.displayDetails();
+
 	
 	System.out.println("does billionarie exist in the array? : "+BillionariesData.find("Jeff Bezos"));
 	
 	System.out.println("The updated oldBillionarie  to newBillionarie is :" +BillionariesData.update("Sergey Brin","Steve Ballmer"));
+	
 
 	
 	BillionariesData.update(6,"Ambani");
